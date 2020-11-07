@@ -2355,6 +2355,15 @@ const devices = [
         extend: hue.light_onoff_brightness_colortemp_colorxy,
         ota: ota.zigbeeOTA,
     },
+   	{
+        zigbeeModel: ['3261330P6'],
+        model: '3261330P6',
+        vendor: 'Philips',
+        description: 'Hue Still ceiling lamp',
+        extend: hue.light_onoff_brightness_colortemp,
+		meta: {turnsOffAtBrightness1: true},
+        ota: ota.zigbeeOTA,
+    },
     {
         zigbeeModel: ['1746430P7'],
         model: '1746430P7',
